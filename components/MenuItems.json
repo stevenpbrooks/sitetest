@@ -1,0 +1,67 @@
+{
+  "data" : [
+    {
+        "name": "Dashboard",
+        "url": "/dashboard"
+    },
+    {
+      "name": "Setup",
+      "children": [
+        {
+          "name": "Manage Codesets",
+          "url": "/manageCodesets"
+        },
+        {
+          "name": "Imports",
+            "children": [
+            {
+              "name": "Chart of accounts",
+              "url": "/importCOA"
+            },
+            {
+              "name": "General ledger",
+              "url": "/importGL"
+            },
+            {
+              "name": "Vendors",
+              "url": "/importVendors"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Upload",
+      "children": [
+        {
+          "name": "Bank statements",
+          "url": "/uploadBank"
+        },
+        {
+          "name": "Deposit slips",
+          "url": "/uploadDeposit"
+        },
+        {
+          "name": "Receipts",
+          "url": "/uploadReceipts"
+        }
+      ]
+    },
+
+    {
+      "name": "Reconcile",
+      "children": [
+        {
+          "name": "Bank to GL",
+          "url": "/reconcileBankToGL"
+        },
+        {
+          "name": "Receipts to bank",
+          "url": "/reconcileReceiptsToBank"
+        }
+      ]
+    }
+
+  ]
+}
