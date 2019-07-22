@@ -1,0 +1,27 @@
+-- USING REACT and NEXT.JS (server side) and MATERIAL-UI
+
+--To setup npm and package.json and next (which does the server side serving) go to your root and:
+npm init -y
+npm install --save react react-dom next react-router-dom nprogress @material-ui/core @material-ui/icons
+
+-- to debug use of hooks:
+--npm i eslint-plugin-react-hooks
+
+Then open the package.json file in the web root directory and replace scripts with the following:
+"scripts": {
+  "dev": "next",
+  "build": "next build",
+  "start": "next start"
+}
+
+-- next must have a pages directory
+
+-- the nested-menu package was installed as a react-app, not a NEXT 
+--npx create-react-app nested-menu
+
+--To run the site:
+npm run dev
+
+
+Used the dashboard code from:
+https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/page-layout-examples/dashboard
