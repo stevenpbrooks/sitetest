@@ -6,7 +6,7 @@ export default class extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      pageContent: "hi", //props.page.data.story.content,
+      pageContent: "hi", 
     }
   }
 
@@ -24,16 +24,12 @@ export default class extends React.Component {
 //    }
 //  }
 
-//  componentDidMount() {
-//    StoryblokService.initEditor(this)
-//  }
-
   render() {
     const { settings } = this.props
     const { pageContent } = this.state
     return (
-      <Layout> //settings={}>   //settings.data.story}>
-        <p>hello</p>                        //{Components(pageContent)}
+      <Layout> 
+        <p>hello</p>
       </Layout>
     )
   }
