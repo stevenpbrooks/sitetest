@@ -7,7 +7,7 @@ import ExpandLess from '@material-ui/icons/ExpandLess'
 import ExpandMore from '@material-ui/icons/ExpandMore'
 import Drawer from '@material-ui/core/Drawer'
 import { withStyles } from '@material-ui/core/styles'
-import { Link } from 'react-router-dom'
+import Link from 'next/link';
 import menuItems from './menuItems'
 const styles = {
   list: {
@@ -20,7 +20,7 @@ const styles = {
     paddingLeft: '30px'
   }
 };
-class MenuBar extends Component {
+class Nav extends Component {
   constructor( props ) {
     super( props )
     this.state = {}
@@ -108,4 +108,4 @@ render() {
     )
   }
 }
-export default withStyles(styles)(MenuBar)
+export default withStyles(styles)(Nav)
